@@ -1,3 +1,13 @@
+//SJF (Shortest Job First) is a CPU scheduling algorithm that selects the process with the smallest burst time first.
+
+//✔ Minimizes average waiting time
+//✔ Non-preemptive (your code uses this type)
+//✘ Can cause starvation for long processes
+//✘ Requires knowing burst times in advance
+
+//SJF is optimal for reducing the average waiting time.
+
+
 #include <stdio.h>
 
 int main() {
