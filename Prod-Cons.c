@@ -1,3 +1,15 @@
+// The Producer–Consumer problem is a classic synchronization problem where:
+
+//**A producer creates data and puts it into a shared buffer.
+
+//**A consumer removes data from the buffer and processes it.
+
+//**They must be synchronized so the producer does not add data to a full buffer, and the consumer does not remove data from an empty buffer.
+
+//Mutexes, semaphores, or condition variables are used to avoid race conditions.
+
+
+
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h>
