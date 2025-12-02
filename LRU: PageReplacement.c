@@ -1,3 +1,7 @@
+//LRU (Least Recently Used) is a page replacement algorithm that removes the page that has not been used for the longest time.
+//When a new page needs to be loaded and memory is full, LRU replaces the page that was used least recently, assuming it is the least likely to be needed soon.
+
+
 #include <stdio.h>
 
 int main() {
