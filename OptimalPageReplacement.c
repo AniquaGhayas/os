@@ -1,3 +1,12 @@
+//The Optimal Page Replacement (OPT) algorithm replaces the page that will not be used for the longest time in the future.
+
+//✔ Produces the minimum possible page faults
+//✔ Ideal for comparison, but not practical, because it requires future knowledge
+//✔ Used mainly for theoretical analysis
+
+//In OPT:
+//When a page fault occurs and all frames are full → Replace the page whose next use is farthest in the future (or never used again).
+
 #include <stdio.h>
 
 int findOptimal(int pages[], int n, int frames[], int f, int index) {
