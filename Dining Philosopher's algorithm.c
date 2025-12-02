@@ -1,3 +1,15 @@
+//The Dining Philosophers Problem, proposed by Dijkstra, is a classic synchronization problem:
+//Five philosophers sit around a table.
+//Each philosopher alternates between thinking and eating.
+//Between each pair of philosophers is one chopstick.
+//A philosopher must pick up two chopsticks (left and right) to eat.
+//Goal:
+//Prevent problems such as:
+//Deadlock → all philosophers hold one chopstick and wait forever
+//Starvation → a philosopher never gets a chance to eat
+//Race conditions
+//It is widely used to study synchronization, mutex locks, and resource sharing in operating systems.
+
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h>
