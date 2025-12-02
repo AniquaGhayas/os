@@ -1,3 +1,10 @@
+//FCFS (First Come First Serve) disk scheduling handles disk I/O requests in the exact order they arrive.
+//It does not reorder or optimize requests — it simply serves the first request first.
+
+//✔ Simple to implement
+//✔ Fair to all processes
+//✘ Can result in long seek time if requests are scattered on different tracks
+
 #include <stdio.h>
 #include <stdlib.h>
 
